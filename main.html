@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Despensa.com</title>
+    <script src="main.js"></script>
+</head>
+
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="cart">
+            <img src="cart.svg" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+
+        <div id="despensa">
+
+            <div class="producto">
+                <img src="meat.svg" id="meat" draggable="true" ondragstart="drag(event)">
+                <p>Carnes: <span id="precioMeat">15</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="cheese.svg" id="cheese" draggable="true" ondragstart="drag(event)">
+                <p>Quesos: <span id="precioCheese">5</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="sausage.svg" id="sausage" draggable="true" ondragstart="drag(event)">
+                <p>Salchichas: <span id="precioSausage">4</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="bread.svg" id="bread" draggable="true" ondragstart="drag(event)">
+                <p>Barra de pan: <span id="precioBread">1</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="donut.svg" id="donut" draggable="true" ondragstart="drag(event)">
+                <p>Donuts: <span id="precioDonut">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="pear.svg" id="pear" draggable="true" ondragstart="drag(event)">
+                <p>Peras: <span id="precioPear">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="water.svg" id="water" draggable="true" ondragstart="drag(event)">
+                <p>Agua: <span id="precioWater">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="fish.svg" id="fish" draggable="true" ondragstart="drag(event)">
+                <p>Pescados: <span id="precioDonut">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="orange.svg" id="orange" draggable="true" ondragstart="drag(event)">
+                <p>Naranjas: <span id="precioOrange">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="coffee.svg" id="coffe" draggable="true" ondragstart="drag(event)">
+                <p>Cafés: <span id="precioDonut">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="icecream.svg" id="icecream" draggable="true" ondragstart="drag(event)">
+                <p>Helados: <span id="precioDonut">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="veggies.svg" id="veggies" draggable="true" ondragstart="drag(event)">
+                <p>Verduras: <span id="precioDonut">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="cereales.svg" id="cereales" draggable="true" ondragstart="drag(event)">
+                <p>Cereales: <span id="precioVeggies">2</span>€</p>
+            </div>
+            <div class="producto">
+                <img src="colas.svg" id="colas" draggable="true" ondragstart="drag(event)">
+                <p>Refrescos: <span id="precioColas">2</span>€</p>
+            </div>
+        </div>
+
+
+        <h2>Total compra: <span id="total">0</span>€</h2>
+
+        
+        <table id="tablaCarrito"></table>
+
+    </main>
+</body>
+
+</html>

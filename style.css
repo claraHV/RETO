@@ -1,0 +1,52 @@
+#despensa{
+    width: 80%;
+    display:block;
+    margin: 0 auto;
+    border: 3px solid moccasin;
+    padding-bottom: 10px;
+    background-color: palegoldenrod;
+}
+
+h2{
+    margin-left: 10%;
+}
+
+img, p {
+    display: block;
+    margin: 0 auto;
+}
+
+.producto{
+    display: inline-block;
+    margin: 5% 2% 0 2%;
+}
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    background-color: white;
+    border: solid 2px black;
+    padding: 5px
+}
+
+
+main{
+    margin: 5%;
+}
+
+
+.cart{
+    position:absolute; 
+    z-index:4;
+    left:80%; 
+    top: 5%; 
+}
+
+.cart img{
+   width: 20%;
+ }
+
+#tablaCarrito {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
