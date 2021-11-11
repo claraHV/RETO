@@ -5,9 +5,10 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Functionalities](#functionalities)
-3. [Technologies](#technologies)
-4. [References](#references)
-5. [License](#license)
+3. [Errors](#errors)
+4. [Technologies](#technologies)
+5. [References](#references)
+6. [License](#license)
 
 
 ### General Info
@@ -21,6 +22,10 @@ The project has 2 functionalities:
 
 - Add to cart items by drag and drop each item on the cart. Total quantity is upload when an item is added.
 - Delete items by choosing "Eliminar" option. Total quantity is upload when an item is deleted.
+
+### Errors
+
+When using Mozilla Firefox cart.svg is not displayed.
 
 ### Technologies
 
